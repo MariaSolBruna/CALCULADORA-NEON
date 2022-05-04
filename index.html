@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Public/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+<div class="container">
+    <div id="appCalculator">
+        <form action="" name="calculator">
+            <input type="textfield" name="answer" autocomplete="off" readonly>
+           <div class="buttonsCalc">
+            <input type="reset" value="C" class="cButton">
+            <input type="button" value="." class="otherButtons" onclick="document.calculator.answer.value+='.'">
+            <input type="button" value="+" class="otherButtons" onclick="document.calculator.answer.value+='+'">
+<br>
+            <input type="button" value="7" class="otherButtons" onclick="document.calculator.answer.value+='7'">
+            <input type="button" value="8" class="otherButtons" onclick="document.calculator.answer.value+='8'">
+            <input type="button" value="9" class="otherButtons" onclick="document.calculator.answer.value+='9'">
+            <input type="button" value="-" class="otherButtons" onclick="document.calculator.answer.value+='-'">
+<br>
+            <input type="button" value="4" class="otherButtons" onclick="document.calculator.answer.value+='4'">
+            <input type="button" value="5" class="otherButtons" onclick="document.calculator.answer.value+='5'">
+            <input type="button" value="6" class="otherButtons" onclick="document.calculator.answer.value+='6'">
+            <input type="button" value="x" class="otherButtons" onclick="document.calculator.answer.value+='*'">
+<br>
+            <input type="button" value="1" class="otherButtons" onclick="document.calculator.answer.value+='1'"> 
+            <input type="button" value="2" class="otherButtons" onclick="document.calculator.answer.value+='2'">
+            <input type="button" value="3" class="otherButtons" onclick="document.calculator.answer.value+='3'">
+            <input type="button" value="/" class="otherButtons" onclick="document.calculator.answer.value+='/'">
+<br>
+
+            <input type="button" value="0" class="buttonZero" onclick="document.calculator.answer.value+='0'"> 
+            <input type="button" value="=" class="opEqual" onclick="document.calculator.answer.value=eval(document.calculator.answer.value)">
+
+        </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>

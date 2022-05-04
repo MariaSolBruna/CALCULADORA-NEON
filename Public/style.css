@@ -1,0 +1,103 @@
+* {
+    top: 0;
+    bottom: 0;
+
+}
+
+body {
+    background-image: url("../Img/neon1.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#appCalculator {
+    height: 670px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#appCalculator form {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 190, 200, 0.3);
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: inset 5px 5px 5px rgb(236, 39, 227), inset -5px -5px 5px rgb(236, 39, 227), 2px 2px 5px 6px rgb(236, 39, 227), -6px -6px 6px rgb(236, 39, 227);
+}
+
+#appCalculator input[type=textfield] {
+    width: 85%;
+    height: 25%;
+    background-color: rgba(95, 248, 64, 0.3);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    outline: none;
+    margin: 35px 0 16px 32px;
+    border: 1px solid white;
+    font-size: 50px;
+    box-shadow: inset 4px 4px 6px rgb(19, 253, 19), inset -4px -4px 6px rgb(19, 253, 19), 2px 2px 5px 6px rgb(19, 253, 19), -4px -4px 6px rgb(19, 253, 19);
+}
+
+.otherButtons {
+    width: 20%;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 18px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(51, 248, 255, 0.4);
+    box-shadow: inset 4px 4px 6px rgb(30, 191, 255), inset -4px -4px 6px rgb(30, 191, 255), 2px 2px 5px 6px rgb(30, 191, 255), -4px -4px 6px rgb(30, 191, 255);
+}
+
+.buttonsCalc {
+    margin: 15px 0 28px 35px;
+}
+
+.opEqual {
+    width: 43.5%;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 18px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 239, 97, 0.3);
+    box-shadow: inset 4px 4px 6px rgb(223, 219, 0), inset -4px -4px 6px rgb(223, 219, 0), 2px 2px 5px 6px rgb(223, 219, 0), -4px -4px 6px rgb(223, 219, 0);
+}
+
+.cButton {
+    width: 43.5%;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 18px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 72, 72, 0.4);
+    box-shadow: inset 4px 4px 6px rgb(224, 0, 0), inset -4px -4px 6px rgb(224, 0, 0), 2px 2px 5px 6px rgb(224, 0, 0), -4px -4px 6px rgb(224, 0, 0);
+}
+
+.buttonZero {
+    width: 43.5%;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 18px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(51, 248, 255, 0.4);
+    box-shadow: inset 4px 4px 6px rgb(30, 191, 255), inset -4px -4px 6px rgb(30, 191, 255), 2px 2px 5px 6px rgb(30, 191, 255), -4px -4px 6px rgb(30, 191, 255);
+}
